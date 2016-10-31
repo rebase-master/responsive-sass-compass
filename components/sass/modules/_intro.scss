@@ -5,6 +5,10 @@ header {
     @include align-items(center);
     @include justify-content(center);
 
+    @include display-flex();
+    @include align-items(center);
+    @include justify-content(center);
+
     .hgroup {
       @include container(95%);
       margin: 100px 0;
